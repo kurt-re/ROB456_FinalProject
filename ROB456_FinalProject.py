@@ -64,7 +64,7 @@ def createAdjMatrix(world):
                     coord = vertToCoord(neighborVert[i], world)
                     
                     #Verify that neighboring coordinates are within bounds
-                    if coord[0] <= 19 and coord[1] <= 19:
+                    if coord[0] <= len(world) and coord[1] <= len(world):
                         
                         #Check occupancy of neighboring vertex
                         occ = world[coord[0]][coord[1]]
