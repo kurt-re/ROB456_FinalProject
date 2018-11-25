@@ -50,6 +50,8 @@ def createAdjMatrix(world):
                 neighborVert[3] = -1
             elif vertCoord[1] == len(world)-1:
                 neighborVert[2] = -1
+                
+                #Kurt is a loser
                     
             
             #Check if you can get to neighboring vertices from original vertex
